@@ -20,6 +20,17 @@ Projects shipped with OpenClaw + Claude Sonnet.
 
 **Tech Stack:** Next.js 15, Claude Opus 4.6, Vercel, ClawHub CLI
 
+### Gabby Gmail Monitor (2026-02-15) ✅
+**Automated school/scouts email monitoring with calendar & Telegram integration**
+
+- 📦 **Repo:** https://github.com/mhugo22/gabby-gmail (private)
+- 🔍 **What it does:** Monitors a Gmail inbox for school and scouts updates, auto-categorizes emails, extracts event dates into iCloud calendar, and sends digests to a dedicated Telegram channel
+- ⏱️ **Timeline:** Idea → fully automated in ~1 hour
+- 🔄 **Schedule:** Runs 4x daily (7am, 1pm, 5pm, 9pm CST)
+- 🏆 **Status:** Shipped, running via OpenClaw cron
+
+**Tech Stack:** Node.js, Gmail API (OAuth 2.0), macOS Calendar (AppleScript/iCloud), Telegram, OpenClaw Cron
+
 ---
 
 ## What is this?
@@ -37,9 +48,9 @@ Each project includes:
 
 ## Stats
 
-- **Projects shipped:** 1
-- **Total cost:** $4.67
-- **Fastest ship:** 6 hours (SketchySkills)
+- **Projects shipped:** 2
+- **Total cost:** $4.67 + minimal (Gabby Gmail)
+- **Fastest ship:** ~1 hour (Gabby Gmail)
 - **Lines of code written:** ~2,000+ (estimated)
 
 ---
@@ -52,4 +63,4 @@ Each project includes:
 
 ---
 
-*Last updated: 2025-01-21*
+*Last updated: 2026-02-15*
