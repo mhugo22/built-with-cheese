@@ -31,6 +31,18 @@ Projects shipped with OpenClaw + Claude Sonnet.
 
 **Tech Stack:** Node.js, Gmail API (OAuth 2.0), macOS Calendar (AppleScript/iCloud), Telegram, OpenClaw Cron
 
+### Cheese Brain (2026-02-17) ✅
+**DuckDB-powered knowledge management system for AI agents and humans**
+
+- 🌐 **Repo:** https://github.com/mhugo22/cheese-brain
+- 🔍 **What it does:** Sub-millisecond keyword & full-text search across 22+ entity types (projects, contacts, tools, decisions, email accounts, workflows, etc.) - designed as a persistent knowledge base for AI agents to recall context across sessions
+- 📊 **Results:** 44 entities populated, <1ms search performance, 2-9x Parquet compression, automated daily backups
+- ⏱️ **Timeline:** Design → production-ready in 2 days (Phase 1 complete)
+- 🎯 **Key Learning:** DuckDB's native JSON/array support + FTS extension = perfect fit for unstructured knowledge bases; Pydantic v2 `@field_serializer` pattern for clean UUID/datetime serialization
+- 🏆 **Status:** Shipped, production-ready, in daily use
+
+**Tech Stack:** Python 3.11+, DuckDB 1.4.4+, Pydantic v2, Click CLI, pytest, OpenClaw Cron (backups)
+
 ---
 
 ## What is this?
@@ -48,10 +60,10 @@ Each project includes:
 
 ## Stats
 
-- **Projects shipped:** 2
-- **Total cost:** $4.67 + minimal (Gabby Gmail)
+- **Projects shipped:** 3
+- **Total cost:** $4.67 + minimal (Gabby Gmail, Cheese Brain)
 - **Fastest ship:** ~1 hour (Gabby Gmail)
-- **Lines of code written:** ~2,000+ (estimated)
+- **Lines of code written:** ~3,500+ (estimated)
 
 ---
 
@@ -63,4 +75,4 @@ Each project includes:
 
 ---
 
-*Last updated: 2026-02-15*
+*Last updated: 2026-02-17*
