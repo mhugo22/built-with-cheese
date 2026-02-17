@@ -35,11 +35,12 @@ Projects shipped with OpenClaw + Claude Sonnet.
 **DuckDB-powered knowledge management system for AI agents and humans**
 
 - 🌐 **Repo:** https://github.com/mhugo22/cheese-brain
+- 🎁 **ClawHub:** https://clawhub.com/skills/cheese-brain (v1.0.0)
 - 🔍 **What it does:** Sub-millisecond keyword & full-text search across 22+ entity types (projects, contacts, tools, decisions, email accounts, workflows, etc.) - designed as a persistent knowledge base for AI agents to recall context across sessions
-- 📊 **Results:** 44 entities populated, <1ms search performance, 2-9x Parquet compression, automated daily backups
-- ⏱️ **Timeline:** Design → production-ready in 2 days (Phase 1 complete)
+- 📊 **Results:** 107 entities populated, <1ms search performance, 2-9x Parquet compression, automated daily backups
+- ⏱️ **Timeline:** Design → production-ready + published in 2 days (Phase 1 complete)
 - 🎯 **Key Learning:** DuckDB's native JSON/array support + FTS extension = perfect fit for unstructured knowledge bases; Pydantic v2 `@field_serializer` pattern for clean UUID/datetime serialization
-- 🏆 **Status:** Shipped, production-ready, in daily use
+- 🏆 **Status:** Shipped, published to ClawHub, in daily use
 
 **Tech Stack:** Python 3.11+, DuckDB 1.4.4+, Pydantic v2, Click CLI, pytest, OpenClaw Cron (backups)
 
