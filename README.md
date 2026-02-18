@@ -44,6 +44,19 @@ Projects shipped with OpenClaw + Claude Sonnet.
 
 **Tech Stack:** Python 3.11+, DuckDB 1.4.4+, Pydantic v2, Click CLI, pytest, OpenClaw Cron (backups)
 
+### OpenClaw Scripts (2026-02-18) ✅
+**Automation scripts for OpenClaw gateway management**
+
+- 🌐 **Repo:** https://github.com/mhugo22/openclaw-scripts
+- 🔍 **What it does:** Generic automation scripts for OpenClaw users - automated config backup with rolling retention, config diff tool, unified memory search (Cheese Brain + files)
+- 📦 **Scripts:** `backup_config.py` (LaunchAgent-based auto-backup), `config_diff.sh` (compare backups), `memory_search.py` (unified search)
+- ⏱️ **Timeline:** Extracted from workspace + sanitized + published in ~1 hour
+- 🔒 **Security:** Pre-push scan passed (no tokens, personal paths, or identifiers)
+- 🎯 **Key Learning:** Separating shareable scripts from private workspace prevents accidental data leaks while contributing to the OpenClaw community
+- 🏆 **Status:** Shipped, open-source (MIT), ready for community use
+
+**Tech Stack:** Python 3, Bash, macOS LaunchAgent, Git
+
 ---
 
 ## What is this?
@@ -61,10 +74,10 @@ Each project includes:
 
 ## Stats
 
-- **Projects shipped:** 3
-- **Total cost:** $4.67 + minimal (Gabby Gmail, Cheese Brain)
-- **Fastest ship:** ~1 hour (Gabby Gmail)
-- **Lines of code written:** ~3,500+ (estimated)
+- **Projects shipped:** 4
+- **Total cost:** $4.67 + minimal (Gabby Gmail, Cheese Brain, OpenClaw Scripts)
+- **Fastest ship:** ~1 hour (Gabby Gmail, OpenClaw Scripts)
+- **Lines of code written:** ~4,000+ (estimated)
 
 ---
 
@@ -76,4 +89,4 @@ Each project includes:
 
 ---
 
-*Last updated: 2026-02-17*
+*Last updated: 2026-02-18*
